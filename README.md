@@ -1,5 +1,5 @@
 # M300-Services
-## TBZ M300 LB02
+## LB02
 ### K1
 Ich habe nach Anleitung Virtualbox, Vagrant, Visual Studio Code und Git-Client installiert.
 
