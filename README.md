@@ -75,8 +75,6 @@ Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) k�
 Mein Wissenstand ist praktisch nicht vorhanden. Mein Betrieb hat mir vor ca. einem Jahr erklärt was Kubernetes ist und das in Verbindung mit AWS oder von Google. Docker wurde mir auch mehrmals erklärt. Mir ist bewusst, dass man mittels Docker Container erstellen kann, in denen Applikationen, abgeschottet von allem anderen laufen können. Wofür und wieso man das macht ist mir im moment noch nicht bekannt.
 
 ### K3
-Befehle
-
 ### Befehle
 Hier sind die wichtigsten Befehle:
 | Befehl                    | Beschreibung                                                      |
@@ -94,3 +92,7 @@ Hier sind die wichtigsten Befehle:
 | `docker diff` | Gibt die Änderungen am Dateisystem des Containers verglichen mit dem Image aus, aus dem er gestartet wurde. |
 | `docker top` | Gibt Informationen zu den laufenden Prozessen in einem angegebenen Container aus. |
 
+Anleitung: https://www.ionos.de/community/server-cloud-infrastructure/docker/bereitstellen-von-wordpress-in-docker-containern/
+Ich habe mittels der Anleitung probiert Wordpress zu starten (Webapp im Frontend & DB im Backend).
+Die Installation war erfolgreich, leider konnte ich es nicht testen, da die Verbindung zur Website refused wird.
+Zuletzt hat mir auch Marc probiert zu helfen. Wir haben das Problem mit den VM's auf meinem PC angeschaut aber auch er hat nichts gefunden. Marc war so grosszügig und hat mir einen CentOS server spendiert. Dieser ist auch über eine Public IP erreichbar.
