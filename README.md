@@ -73,3 +73,24 @@ Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) k�
 ### K2
 **Persönlicher Wissenstand** <br>
 Mein Wissenstand ist praktisch nicht vorhanden. Mein Betrieb hat mir vor ca. einem Jahr erklärt was Kubernetes ist und das in Verbindung mit AWS oder von Google. Docker wurde mir auch mehrmals erklärt. Mir ist bewusst, dass man mittels Docker Container erstellen kann, in denen Applikationen, abgeschottet von allem anderen laufen können. Wofür und wieso man das macht ist mir im moment noch nicht bekannt.
+
+### K3
+Befehle
+
+### Befehle
+Hier sind die wichtigsten Befehle:
+| Befehl                    | Beschreibung                                                      |
+| ------------------------- | ----------------------------------------------------------------- | 
+| `docker run` | Ist der Befehl zum Starten neuer Container, hat aber auch extrem viele Argumente und ist somit auch kompliziert |
+| `docker ps` |  Gibt einen Überblick über die aktuellen Container, wie z.B. Namen, IDs und Status. |
+| `docker images` | Gibt eine Liste lokaler Images aus, wobei Informationen zu Repository-Namen, Tag-Namen und Grösse enthalten sind. |
+| `docker rm` | Entfernt einen oder mehrere Container. Gibt die Namen oder IDs erfolgreich gelöschter Container zurück.|
+| `docker rmi` | Löscht das oder die angegebenen Images. Diese werden durch ihre ID oder Repository- und Tag-Namen spezifiziert. |
+| `docker start` | Startet einen (oder mehrere) gestoppte Container |
+| `docker stop` | Stoppt einen oder mehrere Container (ohne sie zu entfernen). Nach dem Aufruf von `docker stop` für einen Container wird er in den Status »exited« überführt. |
+| `docker kill` | Schickt ein Signal an den Hauptprozess (PID 1) in einem Container. Standardmässig wird SIGKILL gesendet, womit der Container sofort stoppt. |
+| `docker logs` | Gibt die "Logs" für einen Container aus. Dabei handelt es sich einfach um alles, was innerhalb des Containers nach STDERR oder STDOUT geschrieben wurde. |
+| `docker inspect` | Gibt umfangreiche Informationen zu Containern oder Images aus. Dazu gehören die meisten Konfigurationsoptionen und Netzwerkeinstellungen sowie Volumes-Mappings. |
+| `docker diff` | Gibt die Änderungen am Dateisystem des Containers verglichen mit dem Image aus, aus dem er gestartet wurde. |
+| `docker top` | Gibt Informationen zu den laufenden Prozessen in einem angegebenen Container aus. |
+
