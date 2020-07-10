@@ -101,4 +101,4 @@ Zuletzt hat mir auch Marc probiert zu helfen. Wir haben das Problem mit den VM's
 ### 10.07.20
 Auf dem Public Server konnte Docker nicht anständig installiert werden. Nach einer Weile probieren hat die Installation funktioniert aber `docker run hello-world` gab einen Error aus, dass man keine Berechtigung hat, obwohl man mit dem Root-User eingeloggt ist. Zuletzt hat mir Laura ihre TBZ-VM gegeben. Dort konnte ich endlich Wordpress anständig aufsetzen und K3 weitermachen.
 
-! [Netzwerkplan] (Netzwerk.PNG)
+![Netzwerkplan](Netzwerk.PNG)
