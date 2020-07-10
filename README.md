@@ -92,7 +92,13 @@ Hier sind die wichtigsten Befehle:
 | `docker diff` | Gibt die Änderungen am Dateisystem des Containers verglichen mit dem Image aus, aus dem er gestartet wurde. |
 | `docker top` | Gibt Informationen zu den laufenden Prozessen in einem angegebenen Container aus. |
 
+#### 09.07.20
 Anleitung: https://www.ionos.de/community/server-cloud-infrastructure/docker/bereitstellen-von-wordpress-in-docker-containern/
 Ich habe mittels der Anleitung probiert Wordpress zu starten (Webapp im Frontend & DB im Backend).
 Die Installation war erfolgreich, leider konnte ich es nicht testen, da die Verbindung zur Website refused wird.
 Zuletzt hat mir auch Marc probiert zu helfen. Wir haben das Problem mit den VM's auf meinem PC angeschaut aber auch er hat nichts gefunden. Marc war so grosszügig und hat mir einen CentOS server spendiert. Dieser ist auch über eine Public IP erreichbar.
+
+### 10.07.20
+Auf dem Public Server konnte Docker nicht anständig installiert werden. Nach einer Weile probieren hat die Installation funktioniert aber `docker run hello-world` gab einen Error aus, dass man keine Berechtigung hat, obwohl man mit dem Root-User eingeloggt ist. Zuletzt hat mir Laura ihre TBZ-VM gegeben. Dort konnte ich endlich Wordpress anständig aufsetzen und K3 weitermachen.
+
+! [Netzwerkplan] (Netzwerk.PNG)
